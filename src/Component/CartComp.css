@@ -1,0 +1,86 @@
+.quantity-btn {
+    border: none;
+    background-color: #A1C349;
+    border-radius: 5px;
+}
+
+.quantity-btn:active {
+    opacity: -0.2;
+}
+
+#card-w {
+    box-shadow: 0 .125rem .25rem rgb(175, 175, 175);
+}
+
+#card-w:hover {
+    box-shadow: 0 .2rem 0.500rem rgb(45, 45, 44);
+}
+
+.inc-btn {
+    background-color: green;
+}
+
+.dec-btn {
+    background-color: red;
+}
+
+.card {
+    background-color: #262B40;
+    color: #fff;
+}
+
+nav {
+    box-shadow: 4px 4px 6px !important;
+}
+
+
+.txt-size {
+    font-size: 40px;
+}
+
+@keyframes fadeInAnimation {
+    0% {
+        top: -130px;
+    }
+
+    100% {
+        top: 55px;
+    }
+}
+
+.show {
+    position: fixed;
+    transition-duration: 3s;
+    transition-delay: 3s;
+    animation: fadeInAnimation 1s;
+    z-index: -1;
+    margin-bottom: 5px;
+    width: 100%;
+}
+
+.rating-color {
+    color: #fbc634 !important;
+}
+
+.bg-white {
+    border-radius: 10px !important;
+}
+
+.d-block {
+    border-radius: 15px !important;
+}
+
+.shadow {
+    box-shadow: 4px 4px 6px black !important;
+    background-color: white;
+    color: black;
+}
+
+.cont {
+    margin-top: 130px;
+}
+
+.btn-n {
+    display: flex;
+    justify-content: end;
+}
